@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel</title>
 </head>
+
 <body>
 
     <section id="retornar">
         <h1>Gabriel</h1>
-        
+
         <ul>
             <li><a href="#sobre">Sobre mim</a></li>
             <li><a href="#projeto">Projeto</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
-        
+
     </section>
 
     <section id="sobre">
@@ -39,17 +41,46 @@
 
 
     </section>
-    
-    <footer id="contato">
-        <p>Direitos reservados à Gabriel</p>
 
-        <h2>Contatos</h2>
-        <p>Tem um projeto em mente? Entre em contato.</p>
+    <footer>
+        <section id="contato">
+            <p>Direitos reservados à Gabriel</p>
 
-        <p>E-mail: <a href="gabrieldprado11@hotmail.com">gabrieldprado11@hotmail.com</a><br>
-        Telefone: <a href="fone">47 999999999</a>
-        </p>
+            <h2>Contato</h2>
+            <p>Tem um projeto em mente? Entre em contato.</p>
 
+            <p>E-mail: <a href="gabrieldprado11@hotmail.com">gabrieldprado11@hotmail.com</a><br>
+                Telefone: <a href="fone">47 999999999</a></p>
+
+                <form action="">
+
+                    <label for="nome">Nome: </label><br>
+                    <input for="text" id="nome" name="nome"><br>
+
+                    <label for="email">E-mail: </label><br>
+                    <input for="email" id="email" name="email"><br>
+
+                    <label for="telefone">Telefone: </label><br>
+                    <input type="tel" id="telefone" name="telefone"><br>
+
+                    <label for="servicos">Serviços</label><br>
+                    <select name="servicos" id="servicos">
+                        <option value="salecione">Selecione</option><br>
+                        <option value="orcamentos">Orçamentos</option><br>
+                        <option value="construcao">Construção</option><br>
+                        <option value="acabamento">Acabamento</option><br>
+                        <option value="instalacao">Instalação</option><br>
+                    </select><br>
+
+                    <label for="textoarea">Mande uma mensagem: </label><br>
+                    <textarea name="textoarea" id="textoarea" rows="10" cols="30"></textarea><br>
+                    <input type="submit" value="Enviar">
+
+
+
+                </form>
+        </section>
     </footer>
 </body>
+
 </html>
