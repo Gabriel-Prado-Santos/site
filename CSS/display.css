@@ -1,0 +1,15 @@
+p{
+    border:1px solid black;
+}
+
+.block{
+    display:block;
+}
+
+.in-line{
+    display:inline;
+}
+
+.inlineBlock{
+    display:inline-block;
+}
