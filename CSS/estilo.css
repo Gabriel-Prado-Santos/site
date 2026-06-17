@@ -17,6 +17,32 @@ a {
     color: red;
 }
 
+/*
 .negrito {
     font-weight: bold;
+}
+
+p + a { seletor irmão adjacente
+    font-weight: bold;
+    color: red;
+}
+*/
+
+/* seletor irmão */
+p ~ a {
+    font-weight: bold;
+    color: red;
+}
+
+/*seletor filho*/ 
+p > a {
+    font-weight: bold;
+    color: black;
+}
+
+/* seletor descendente*/
+
+div a {
+    font-weight: bold;
+    color: green;
 }
