@@ -1,0 +1,63 @@
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 20px;
+}
+
+.container div {
+    background-color: aliceblue;
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    }
+
+
+/*container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+}*/
+
+.cabecalho{
+    grid-column: 1 /-1;
+    background-color: aliceblue;
+    padding: 2px;
+    margin: 2px; 
+}
+
+.menu{
+     grid-column: 1 /-1;
+    background-color:aqua;
+    padding: 20px;
+    margin: 2px;
+}
+
+.lateralEsquerda {
+    grid-column: 1 /-1;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 2px;
+}
+
+.conteudo{
+    background-color:azure;
+    padding: 20px;
+    height: 200px;
+    margin: 2px;
+}
+
+.lateralDireita{
+    grid-column: 1 /-1;
+    background-color: beige;
+    padding: 20px;
+    margin: 5px;
+}
+
+.rodape {
+    grid-column: 1 /-1;
+    background-color: bisque;
+    padding: 20px;
+    margin: 2px;
+}
