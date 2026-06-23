@@ -3,6 +3,9 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
+
 }
 
 .box {
@@ -10,4 +13,16 @@
     width: 50px;
     border: 3px solid black;
     border-radius: 3px;
+}
+
+#box1 {
+    background-color:aquamarine;
+}
+
+#box2{
+    background-color: lightcoral;
+}
+
+#box3 {
+    background-color: lightblue;
 }
