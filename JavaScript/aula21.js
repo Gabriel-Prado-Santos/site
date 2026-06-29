@@ -35,7 +35,7 @@ do {
 } while(i < carros.length);
 criarSecao("Loop do-while", dados);
 
-//laço for
+//laço for of
 
 dados = "";
 for(i = 0; i < carros.length; i++){
@@ -46,6 +46,9 @@ criarSecao("Loop whilemelhorado", dados);
 dados = "";
 
 for(let carro of carros){
+    if(carro === "Escort")
+       // break;
+        continue;
     dados += "<p>" + carro + "</p>";
 }
 criarSecao("Loop For of", dados);
@@ -69,3 +72,13 @@ for(let carro of carros2){
     }
     dados+= "<p>" + propriedades + "</p>";
 }
+
+criarSecao("Loop For in", dados);
+// loop forEach
+dados = "";
+carros.forEach((carro) => {
+    dados += "<p>" + carro + "</p>";
+});
+
+criarSecao("Loop forEach", dados);
+
