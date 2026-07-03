@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido Pizza</title>
+    <script src="desafioPedidoPizza.js" defer></script>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pedido de Pizza</h1>
+    <label for="numeroPizza">Selecione o número correspondente ao sabor: </label>
+    <select id="numeroPizza">
+        <option value="0">Selecione um sabor</option>
+        <option value="1">1 - Calabresa</option>
+        <option value="2">2 - Quatro Queijos</option>
+        <option value="3">3 - Frango com Catupiry</option>
+        <option value="4">4 - Brigadeiro</option>
+    </select>
+    <button onclick="pedidoPizza()">Fazer Pedido</button>
+    <p id="resultado"></p>
+</body>
+</html>
